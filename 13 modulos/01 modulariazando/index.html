@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <script type="module">
+
+    import comprimento from './circuferencia.js';
+
+    console.log(comprimento(2));
+
+  </script>
+
+  <script type="module">
+
+    import {comprimento, area, PI} from './circuferencia.js';
+
+    console.log(comprimento(2));
+    console.log(area(2));
+    console.log(PI);
+
+  </script>
+
+  <script type="module">
+
+    import * as opa from './circuferencia.js';
+
+    console.log(opa.comprimento(2));
+    console.log(opa.area(2));
+    console.log(opa.PI);
+
+  </script>
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+
+
+
+  </body>
+</html>

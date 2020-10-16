@@ -1,0 +1,36 @@
+ha varias formas de declarar uma função no JS
+
+1 por meio de declaração de função (function declaration)
+  é passado um nome e não precisa estar atribuida a uma variavel
+  function desliga(){}
+
+  invocando
+    desliga()
+
+2 utilizando expressão de função function expression
+  a função é armazenada em uma variavel
+
+  var funcaoDesliga = function(){
+
+  }
+
+  invocando
+    funcaoDesliga()
+
+3 invocando o contrutor de function
+  precisamos de uma variavel e passaremos o corpo da funcion como argumentos
+  caso tenhamos parametros devemos passar como argumentos
+
+  var duncaoDesliga = new Function('parametro','corpo da função');
+
+  como é uma arrow function
+
+  (param1, param1, ...,paramN) =>{
+    corpo da função
+  }
+
+  => = fat arrow
+
+  vantagens
+    menos verbosas
+    
